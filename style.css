@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+/* Container */
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+.container img{
+    float: right;
+    width: 200px;
+}
+
+.container h1 {
+    text-align: left;
+    font-size: 2em;
+    color: darkslategrey;
+    margin-bottom: 10px;
+}
+
+.container h2{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+.container p{
+    text-align: left;
+    color: grey;
+    margin-bottom: 20px;
+}
+/* Container */
+
+/* Clients */
+.clients-section {
+    margin-top: 30px;
+}
+
+.clients-section h3{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: darkslategrey;
+}
+
+.clients-section p{
+    text-align: center;
+    margin-bottom: 20px;
+    color: grey;
+} 
+
+.clients {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+/* Clients */
+
+/* Manage */
+.my-manage {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.my-manage h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: darkslategrey;
+}
+
+.my-manage p{
+    text-align: center;
+    margin-bottom: 10px;
+    color: gray;
+    font-size: 15px;
+}
+
+.card {
+    background-color:aliceblue;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}    
+
+.card h3 {
+    margin-bottom: 10px;
+    color: darkslategrey;
+    font-size: 2em;
+}
+
+.card p {
+    margin-bottom: 0;
+    color: gray;
+    font-size: 15px;
+}
+
+.card .icon {
+    width: 50px;
+    height: 50px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Manage */
+
+/* Unseen */
+.unseen {
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+
+.unseen h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: darkslategrey;
+}
+
+.unseen p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.image-unseen {
+    margin-bottom: 10px;
+}
+/* Unseen */
+
+/* Statistics */
+.statistics {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color:aliceblue;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.statistics h1 {
+    font-size: 2em;
+    color: darkslategrey;
+}
+
+.statistics h2{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+.statistics p {
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+}
+
+.stat-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.stat-value {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.stat-label {
+    padding: 20px;
+    font-size: 15px;
+    color: #555;
+}
+/* Statistics */
+
+/* Footer */
+.footer {
+    margin-top: 20px;
+    padding: 50px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+}
+
+.text {
+    flex: 1;
+}
+
+.text h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: darkslategrey;
+}
+
+.text p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.image {
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* Footer */
+
+/* Button */
+.learn-more{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.learn-more:hover {
+    background-color: #1b5f1d;
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .image {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+/* Button */
