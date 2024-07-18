@@ -1,0 +1,5 @@
+![Manager-1](https://github.com/user-attachments/assets/9c4287ff-f13f-4686-b2c6-eab6a428ef36)
+![Manager-2](https://github.com/user-attachments/assets/38444a0d-5a66-47fb-8437-8c8fe3f920e3)
+![Manager-3](https://github.com/user-attachments/assets/a422e493-f556-49f9-adaf-6a54af038744)
+![Manager-4](https://github.com/user-attachments/assets/d346969a-4aa9-4b6a-b073-2301d34ed507)
+![Manager-5](https://github.com/user-attachments/assets/b83d447f-c926-430b-ae53-b4415b07cb88)
